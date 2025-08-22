@@ -1,0 +1,120 @@
+.signin-page {
+  display: flex;
+  font-family: K2D, sans-serif;
+  justify-content: center;
+  padding: 50px;
+  height: 550px;
+}
+
+.signin-left {
+  width: 350px;
+  background: linear-gradient(to bottom right, #00aaff, #5fe6eb);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.signin-logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.signin-title {
+  text-align: center;
+
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+/* Right side */
+.signin-right {
+  width: 300px;
+
+  background: #fff;
+  padding: 40px;
+  justify-content: center;
+  justify-items: center;
+  margin-left: -20px;
+  z-index: 1;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 110px;
+  padding-right: 10px;
+}
+
+.lang-select {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 12px;
+  color: #444;
+}
+
+.create-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Form inputs */
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Create button */
+.create-acc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.create-btn {
+  width: 200px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #00aaff, #8a80f7);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+/* Footer text */
+.footer-text {
+  text-align: center;
+  font-size: 13px;
+  color: #444;
+  justify-content: center;
+  justify-items: center;
+}
+
+.signin-link {
+  color: #547eff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signin-link:hover {
+  text-decoration: underline;
+}

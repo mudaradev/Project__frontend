@@ -2,12 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 //import Navbar from "./Navbar";
-import Loggin from "./Main_loggin";
+//import Loggin from "./Main_loggin";
+import PatientSignin from "./Patient_signin";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Loggin />
+    <PatientSignin />
   </React.StrictMode>
 );
 

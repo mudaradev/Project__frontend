@@ -7,7 +7,7 @@
 
 .loggin-left {
   width: 400px;
-  background: linear-gradient(to bottom right, #00aaff, #547eff);
+  background: linear-gradient(to bottom right, #00aaff, #72e2e6);
   color: white;
   display: flex;
   flex-direction: column;
@@ -24,9 +24,9 @@
 
 .loggin-title {
   text-align: center;
-  font-size: 30px;
+
+  font-size: 25px;
   line-height: 1.5;
-  font-weight: bold;
 }
 
 /* Right side */
