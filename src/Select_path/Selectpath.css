@@ -1,0 +1,74 @@
+.All-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-family: K2D;
+  padding-top: 80px;
+}
+.opd-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  background-color: #298ded;
+  border-radius: 20px 0px 0px 20px;
+}
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  background-color: #0cd2fa;
+  margin: -50;
+  z-index: 3;
+  box-shadow: 2px 2px 30px #0000007c;
+}
+.clinic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  background-color: #00eeff;
+  border-radius: 0px 20px 20px 0;
+}
+.header {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: aliceblue;
+}
+.para {
+  color: aliceblue;
+  padding: 10px;
+}
+.button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #f6f6f7;
+  color: #298ded;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+.clinic-container:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.register-container:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.opd-container:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}

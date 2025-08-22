@@ -3,13 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 //import Navbar from "./Navbar";
 //import Loggin from "./Main_loggin";
-//import PatientSignin from "./Patient_signin";
-import SelectPath from "./Select-path";
+import PatientSignin from "./Patient_signin/Patient_signin";
+//import SelectPath from "./Select_path/Select-path.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <SelectPath />
+    <PatientSignin />
   </React.StrictMode>
 );
 
