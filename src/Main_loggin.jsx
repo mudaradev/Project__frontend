@@ -16,7 +16,7 @@ function Loggin() {
 
   return (
     <div className="loggin-page">
-      {/* Left side */}
+      {/*Left*/}
       <div className="loggin-left">
         <img src={logo} alt="Logo" className="loggin-logo" />
         <h1 className="loggin-title">
@@ -26,10 +26,13 @@ function Loggin() {
         </h1>
       </div>
 
-      {/* Right side */}
+      {/*Right*/}
       <div className="loggin-right">
         <div className="lang-select">
-          English <span>LK ▼</span>
+          English{" "}
+          <span>
+            LK<span>&#9660;</span>
+          </span>
         </div>
         <h2 className="create-title">Create Account</h2>
 
@@ -72,9 +75,9 @@ function Loggin() {
             value={form.phone}
             onChange={handleChange}
           />
-
-          <button className="create-btn">Create Account</button>
-
+          <div className="create-acc">
+            <button className="create-btn">Create Account</button>
+          </div>
           <div className="footer-text">
             Already Have a Account ?{" "}
             <a href="/login" className="signin-link">
