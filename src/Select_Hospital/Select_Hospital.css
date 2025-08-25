@@ -1,0 +1,10 @@
+.Select_Hospital {
+  text-align: center;
+
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-color: #f0f0f0 0.1;
+}
