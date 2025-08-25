@@ -1,10 +1,75 @@
 .Select_Hospital {
   text-align: center;
-
   font-size: 30px;
   font-weight: bold;
   background-image: url("./bg.jpg");
   background-size: cover;
+  background-position: center;
   height: 100vh;
-  background-color: #f0f0f0 0.1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.Select_Hospital::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(231, 246, 247, 0.8);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.Select_Hospital > * {
+  position: relative;
+  z-index: 1;
+}
+
+.Select_Hospital .Card {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+  height: 300px;
+}
+.Select_Hospital .Card h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: #0a6470;
+  padding-bottom: 20px;
+}
+.Select_Hospital .Card .option {
+  margin: 15px 0;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  background-color: #0d99ac;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.select {
+  text-decoration: none;
+  color: rgba(46, 45, 45, 0.678);
+  padding: 8px;
+  width: 400px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 10px;
+
+  margin-bottom: 70px;
+}
+.hos_name {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #0a6470;
 }

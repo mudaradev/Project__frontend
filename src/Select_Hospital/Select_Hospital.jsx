@@ -9,18 +9,39 @@ function Select_Hospital() {
 
   return (
     <div className="Select_Hospital">
-      <div className="Title">Select Your Hospital</div>
-      <select value={hospital} onChange={handleChange}>
-        <option value=""> Select a hospital </option>{" "}
-        <option value="Matra Hospital">Matra Hospital</option>
-        <option value="Galle Hospital">Galle Hospital</option>
-        <option value="Hambanthota Hospital">Hambanthota Hospital</option>
-        <option value="Tangalle Hospital">Tangalle Hospital</option>
-        <option value="Colombo Hospital">Colombo Hospital</option>
-        <option value="Kandy Hospital">Kandy Hospital</option>
-        <option value="RAgama Hospital">RAgama Hospital</option>
-      </select>
-      <div className="hos_name">{hospital}</div>
+      <div className="Card">
+        <div className="Title">
+          <h1>Select Your Hospital</h1>
+        </div>
+        <select className="select" value={hospital} onChange={handleChange}>
+          <option value="" className="option">
+            {" "}
+            Select a hospital{" "}
+          </option>{" "}
+          <option value="Matra Hospital" className="option">
+            Matra Hospital
+          </option>
+          <option value="Galle Hospital" className="option">
+            Galle Hospital
+          </option>
+          <option value="Hambanthota Hospital" className="option">
+            Hambanthota Hospital
+          </option>
+          <option value="Tangalle Hospital" className="option">
+            Tangalle Hospital
+          </option>
+          <option value="Colombo Hospital" className="option">
+            Colombo Hospital
+          </option>
+          <option value="Kandy Hospital" className="option">
+            Kandy Hospital
+          </option>
+          <option value="RAgama Hospital" className="option">
+            RAgama Hospital
+          </option>
+        </select>
+        <div className="hos_name">{hospital}</div>
+      </div>
     </div>
   );
 }
