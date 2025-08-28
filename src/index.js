@@ -4,13 +4,14 @@ import "./index.css";
 //import Navbar from "./Navbar";
 //import Loggin from "./Main_loggin";
 //import PatientSignin from "./Patient_signin/Patient_signin";
-//import SelectPath from "./Select_path/Select-path.jsx";
+import SelectPath from "./Select_path/Select-path.jsx";
 //import Select_Hospital from "./Select_Hospital/Select_Hospital.jsx";
-import Demo from "./Card/Card.jsx";
+//import CardList from "./Card/Card.jsx";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Demo />
+    <SelectPath />
   </React.StrictMode>
 );
 
