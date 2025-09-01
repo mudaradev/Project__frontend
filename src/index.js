@@ -7,12 +7,12 @@ import "./index.css";
 //import SelectPath from "./Select_path/Select-path.jsx";
 //import Select_Hospital from "./Select_Hospital/Select_Hospital.jsx";
 //import CardList from "./Card/Card.jsx";
-import OPD_register from "./OPD_REG/OPD_register.jsx";
-
+//import OPD_register from "./OPD_REG/OPD_register.jsx";
+import Register_another from "./Register_another/register_new.jsx";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <OPD_register />
+    <Register_another />
   </React.StrictMode>
 );
 
