@@ -46,6 +46,9 @@ export default function CardList() {
             <img src={card.image} alt={card.title} />
             <h2>{card.title}</h2>
             <p>{card.description}</p>
+            <p>{card.id}</p>
+
+            <h3>{card.clinicnumber}</h3>
             <QRCodeCanvas
               value={`http://localhost:3000/card/${card.id}`}
               size={100}
@@ -53,6 +56,7 @@ export default function CardList() {
           </div>
         )
       )}
+      <button className="regme">Register Me</button>
     </div>
   );
 }
